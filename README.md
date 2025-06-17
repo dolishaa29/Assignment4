@@ -1,2 +1,11 @@
-# Assignment4
-This repository contains all the Python programming assignments completed as part of the Tutedude Python Programming Course. 
+# Tutedude Python Assignment 4 – Module 5: Files, Exceptions, and Errors in Python
+
+This repository contains the Python scripts completed as part of **Assignment 4** in the **Tutedude Python Programming Course**, based on **Module 5: Files, Exceptions, and Errors in Python**. The main objective of this assignment is to understand file handling operations in Python and to implement error and exception handling mechanisms that make programs more robust and user-friendly.
+
+The assignment is divided into two practical tasks. **Task 1** emphasizes reading from a file and handling potential file-related errors. The program attempts to open and read a file named `sample.txt`, printing its contents line by line. If the file does not exist, the program gracefully handles the error using `try-except` blocks and provides an appropriate message to the user. This task is designed to familiarize learners with reading files using Python's built-in functions and to demonstrate how exceptions can be caught and managed effectively to prevent abrupt termination of the program.
+
+**Task 2** focuses on both writing and appending data to a file. The program prompts the user to enter some text, which is then written to a file named `output.txt`. Additional data is appended to the same file, and finally, the script reads and prints the entire contents of the file to show the combined result. This task highlights the differences between write (`w`) and append (`a`) modes in file handling and also reinforces the importance of using proper file closing techniques or context managers (`with` statement) to ensure files are handled safely and efficiently.
+
+All scripts in this repository are developed using Python 3 and are structured for clarity, readability, and maintainability. Input handling and error prevention measures are included to ensure smooth execution. These exercises are crucial for building foundational knowledge in file I/O operations and understanding how to write error-resilient programs.
+
+To run these scripts, clone the repository and execute the `.py` files using any Python 3 interpreter. This assignment builds confidence in working with files and exceptions—essential skills for real-world Python development.
